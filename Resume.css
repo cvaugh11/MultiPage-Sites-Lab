@@ -1,0 +1,62 @@
+h2{ color: green; }
+p{font-size: 20px}
+li{font-weight: bold}
+table, th, td {border: 1px solid black; padding: 10px; background-color: white}
+#linkbox_wrapper a {position: relative;}
+#linkBox_img { width: 33%; margin-left:1%;}
+
+nav li {display:inline;
+font-weight: normal;
+color: green;
+font-size: 40px;
+margin-right: 30px;
+font-family: helvetica; 
+}
+nav a {text-decoration: none
+}
+
+nav a:hover {text-decoration: underline;
+color:indigo;}
+
+button {
+  color: red;
+  padding: 10px 52px;
+  border-radius: 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+button:hover {
+	background-color: black;
+	color: white;
+}
+.redbutton {border: 2px solid red;}
+
+.redbutton:hover {background-color: red
+;}
+
+.bluebutton {border: 2px solid blue;}
+
+.bluebutton:hover {background-color: blue}
+
+form input, form select {display: block;}
+
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    text-shadow: 1px 1px 1px;
+    border-radius: 25px;
+    background-color: grey;
+    
+
+.styled:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+
+
